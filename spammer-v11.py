@@ -84,7 +84,7 @@ def send_messages():
         messagebox.showerror("Erro", "Por favor, insira um intervalo de tempo válido.")
         return
 
-    url = "https://app.smartf5.com.br:3002/websocket/send-bulk-messages-with-file"
+    url = "https://[URL DO SERVIDOR]/websocket/send-bulk-messages-with-file"
     headers = {
         "api-key": "e3cbd314-f0ea-4160-bcb8-bfedd1db79ec",
         "Content-Type": "application/json"
